@@ -1,4 +1,4 @@
-//META{"name":"Shades of Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"1.0"}*//
+//META{"name":"Shades_of_Red","description":"great_colors_of_red_collide_in_my_first_theme.","author":"True_Prominency","version":"1.0"}*//
 
 /*User Popout*/
 .slider-bar-fill {
@@ -1075,6 +1075,7 @@ body {
 }
 .tab-bar.SIDE {
     margin-right: -17px;
+    background-color: #0b0404;
 }
 .tab-bar.SIDE .tab-bar-item:before {
 	border-left: 4px solid #935959 !important;
