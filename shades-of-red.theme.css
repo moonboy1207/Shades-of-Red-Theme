@@ -329,6 +329,9 @@ img.image {
     padding-bottom: 3px;
     min-height: 18px;
     background: none;
+    background-color: #0f0505;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    color: #FFFFFF!important;
 }
 .chat .welcome-message .item-container .icon.exclamation {
     background-image: url("https://i.imgur.com/3TSVCXg.png");
