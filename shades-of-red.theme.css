@@ -1475,6 +1475,8 @@ div.control-group .shortcut-recorder input[type=text] {
 .emote-menu-inner {
     background-color: #160707;
     border-left: 1px solid #935959;
+    border-right: 1px solid #935959;
+    border-bottom: 1px solid #935959;
 }
 #bda-qem button.active {
     background-color: #511f1f !important;
