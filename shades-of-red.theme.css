@@ -23,12 +23,34 @@
     border-right-color: #19191b;
 }
 .popout header {
-    background-color: rgba(64, 3, 3, 0.98);
-    border-left: 1px solid #935959;
-	font-size: 15;
-    border-right: 1px solid #935959;
-    border-top: 1px solid #935959;
+    background-color: #110606;
+    border: 1px solid #935959;
     color: #FFF;
+}
+.popout section {
+    padding: 20px;
+    background-color: #110606 !important;
+    border-radius: 0 0 3px 3px;
+    border-left: 1px solid #935959;
+    border-right: 1px solid #935959;
+    border-bottom: 1px solid #935959;
+}
+.instant-invite-popout .actions .countdown {
+    color: #FF6B6B;
+}
+.instant-invite-popout a {
+    color: #4e1c1c;
+}
+.instant-invite-popout a:hover {
+    color: #836060;
+}
+.popout.popout-bottom-right header:before, .popout.popout-bottom header:before {
+    border-bottom-color: #935959;
+}
+.instant-invite-popout hr {
+    border: transparent;
+    border-bottom: none;
+    margin: 10px -15px;
 }
 .user-popout .header {
     border: 1px solid #935959;
@@ -115,7 +137,6 @@
 }
 .clipboard-input-inner input {
     color: #000;
-    background-color: #F7F7F7;
     border: 1px solid #935959;
 }
 
