@@ -929,14 +929,14 @@ body {
 
 /*Need Help*/
 .need-help-modal .header {
-	background-color: #240e0e;
+    background-color: #160808;
 }
 .need-help-modal .header input[type=text] {
-	box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
 }
 .need-help-modal .form-inner .failed, .need-help-modal .form-inner.loading, .need-help-modal .footer {
-	border-top: 1px solid #121314;
-	background-color: #110606;
+    border-top: 1px solid #121314;
+    background-color: #110606;
 }
 .need-help-modal a {color: #FFF;}
 
