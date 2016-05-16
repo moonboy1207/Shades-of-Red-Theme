@@ -138,6 +138,10 @@
 .clipboard-input-inner input {
     color: #000;
     border: 1px solid #935959;
+    background-color: #8A1111;
+}
+.clipboard-input-inner button:first-of-type:before {
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #8A1111);
 }
 
 /*User Profile Modal*/
