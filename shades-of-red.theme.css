@@ -199,6 +199,9 @@
 #user-profile-modal footer .btn.disabled {
     background: #FF4D4D;
 }
+#user-profile-modal footer .btn.disabled:hover {
+    background-color: #FF4D4D;
+}
 
 /*Private Channel*/
 .private-channels .channel.selected .icon-friends {
