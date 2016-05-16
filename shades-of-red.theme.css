@@ -821,11 +821,6 @@ body {
 .guild-settings-modal-members h6 {
     color: #c8baba;
 }
-.clipboard-input-inner input {
-    color: #000;
-    background-color: #714949;
-    border: 1px solid #935959;
-}
 .clipboard-input-inner {
     background: #714949;
     border: 1px solid #935959;
