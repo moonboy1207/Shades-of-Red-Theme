@@ -269,6 +269,13 @@
 }
 
 /*Chat*/
+.theme-dark .chat .has-more button {
+    background: #220B0B;
+    border: 1px solid #935959;
+}
+.chat .has-more button {
+    color: #B3BAD4;
+}
 .chat>.title-wrap>.separator {
     background-color: #000;
 }
