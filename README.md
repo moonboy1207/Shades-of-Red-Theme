@@ -1,6 +1,6 @@
 #Shades of Red Theme for Discord
 
-![alt tag](http://i.imgur.com/MZLywa0.png)
+![alt tag](http://i.imgur.com/riwxAB8.png)
 
 ^^^^ HERE IT IS ^^^^
 
