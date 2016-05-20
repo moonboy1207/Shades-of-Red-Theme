@@ -621,12 +621,6 @@ body {
     -webkit-transform: translate3d(0, 0, 0) !important;
     transform: translate3d(0, 0, 0) !important;
 }
-.guilds-wrapper .guilds .guild .guild-inner a, .guilds-wrapper .guilds .guild .guild-inner {
-    width: 40px;
-    height: 40px;
-    background-size: 40px 40px;
-    background-color: #964D4D;
-}
 .guilds-add {
     opacity: .30;
 	font-size:30px;
@@ -671,16 +665,22 @@ body {
     background: #935959;
 }
 .guilds-wrapper .guilds .friends-icon {
-    width: 40px;
-    height: 40px;
-    background-size: 25px 19px;
+    width: 50px;
+    height: 50px;
+    background-size: 30px 26px;
     background-color: #935959;
 }
 .guilds-wrapper .guilds .guild {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     position: relative;
     z-index: 1;
+}
+.guilds-wrapper .guilds .guild .guild-inner a, .guilds-wrapper .guilds .guild .guild-inner {
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    background-color: #964D4D;
 }
 .guilds {
     padding:18px 20px 85px 20px;
