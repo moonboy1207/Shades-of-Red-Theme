@@ -269,6 +269,24 @@
 }
 
 /*Chat*/
+.invite-button.text .invite-button-header strong:before {
+    content: '#';
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.invite-button-header {
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.invite-button {
+    background-color: #540D0D;
+    border: 1px solid #FF0505;
+}
+.theme-dark .messages-wrapper .messages .invite-button {
+    background-color: #540D0D;
+    border-color: #FF0505;
+}
 .theme-dark .chat .has-more button {
     background: #220B0B;
     border: 1px solid #935959;
@@ -291,7 +309,6 @@
 .typing {
     background: none !important;
 }
-
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
 	background-color: #935959 !important;
 	border:4px solid transparent !important;
