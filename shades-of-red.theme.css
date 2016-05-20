@@ -587,6 +587,10 @@ body {
 .theme-dark .friends-table .messages .message-group a, .theme-dark .messages-wrapper .messages .message-group a {
     color: #8f4242;
 }
+.bot-tag {
+    background: rgba(255, 31, 31, 0.66);
+    color: #FFF !important;
+}
 
 /*Scroller*/
 .scroller-wrap.fade .scroller::-webkit-scrollbar-thumb, .scroller-wrap.fade .scroller::-webkit-scrollbar-track-piece {
