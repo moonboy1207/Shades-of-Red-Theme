@@ -589,7 +589,7 @@ body {
 }
 .bot-tag {
     background: rgba(255, 31, 31, 0.66);
-    color: #FFF !important;
+    color: rgba(255, 255, 255, 0.47) !important;
 }
 
 /*Scroller*/
