@@ -354,7 +354,7 @@ img.image {
     color: rgba(255, 255, 255, 0.8);
 }
 .chat>.content .messages .message-group h2 span {
-    color: rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.47) !important;
 }
 .chat>.content .messages .message-group .markup pre {
     background: transparent !important;
