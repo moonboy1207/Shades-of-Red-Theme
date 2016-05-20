@@ -600,9 +600,10 @@ body {
     -webkit-transform: translate3d(0, 0, 0) !important;
     transform: translate3d(0, 0, 0) !important;
 }
-.guilds li .guild-inner a, .guilds li, .guilds li .avatar-small {
-     width: 40px;
-     height: 40px;
+.guilds-wrapper .guilds .guild .guild-inner a, .guilds-wrapper .guilds .guild .guild-inner {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
 }
 .guilds li .avatar-small {
     width: 40px;
