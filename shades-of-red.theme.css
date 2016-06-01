@@ -681,7 +681,7 @@ body {
 }
 .guild-channels .channel-text:hover a {
     color: #fff;
-    background-color: #330404;
+    background-color: rgba(51, 4, 4, 0.35);
 }
 .guild-channels .channel-text.selected:before {
     border-left: 2px solid #935959;
