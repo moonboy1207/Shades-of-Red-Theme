@@ -669,7 +669,7 @@ body {
 
 /*Guilds*/
 .guild-channels .channel-text.selected a {
-    background-color: #480101;
+    background-color: #330404;
 }
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
     width: 9px;
