@@ -668,6 +668,24 @@ body {
 }
 
 /*Guilds*/
+.guild-channels .channel-text.selected a {
+    background-color: #480101;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    width: 9px;
+    height: 12px;
+    background: #935959;
+}
+.channel-text:before {
+    border-left: 2px solid #935959 !important;
+}
+.guild-channels .channel-text:hover a {
+    color: #fff;
+    background-color: #330404;
+}
+.guild-channels .channel-text.selected:before {
+    border-left: 2px solid #935959;
+}
 .guild-channels {
     background-color: #2a0000;
     padding: 10px 0;
@@ -678,13 +696,10 @@ body {
 .guild-header header:hover {
     background-color: #130707;
 }
-.guild-header ul {
+.guild-header {
     background: #160808;
-    border-right: 1px solid #935959;
-    border-bottom: 1px solid #935959;
-    border-left: 1px solid #935959;
 }
-.guild-channels ul .channel:not(.selected):hover {
+.guild-channels .channel:not(.selected):hover {
 	background:none !important;
 }
 .guild-header.guild-header-open ul {
@@ -722,13 +737,13 @@ body {
 .guilds-wrapper .guilds .guild.selected:before {
     background: #935959;
 }
-.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
 	left:-11px;
 }
 .guilds-separator:after {
 	background:#935959;
 }
-.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
 	background:#935959;
 }
 .guilds-wrapper .guilds .guild.unread:before {
@@ -937,13 +952,13 @@ body {
     border-left: 1px solid #935959;
     background-color: #000;
 }
-.guild-channels ul .channel-text .channel-name:before {
+.guild-channels .channel-text .channel-name:before {
     content: '#';
     color: rgba(255, 255, 255, 0.73)!important;
     margin-right: 3px;
     font-weight: 600;
 }
-.guild-channels ul .channel-text.channel-muted:not(.selected) span {
+.guild-channels .channel-text.channel-muted:not(.selected) span {
     opacity: .6;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
     filter: alpha(opacity=30);
