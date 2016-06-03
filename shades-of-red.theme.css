@@ -1554,6 +1554,10 @@ div.control-group .shortcut-recorder input[type=text] {
 .checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after {
     border-color: #FFFFFF;
 }
+.checkbox .checkbox-inner.alt input[type=checkbox]+span {
+    background: #000;
+    border-color: #cdcdcd;
+}
 
 /*Streamer Mode*/
 .notice.notice-streamer-mode {
