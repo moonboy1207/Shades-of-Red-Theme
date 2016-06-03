@@ -1192,6 +1192,12 @@ body {
 }
 
 /*Settings and Options*/
+.change-log .changelog-added, .change-log .changelog-added-secondary {
+    background-color: #AB1717;
+}
+.change-log .changelog-fixed {
+    background-color: #480202;
+}
 .user-settings-security .btn-ghost {
     background: #380D0D;
     border: 2px solid #884A4A;
@@ -1219,10 +1225,10 @@ body {
     padding: 28px 26px;
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .name {
-	color: #FFF !important;
+     color: #FFF !important;
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container.disabled .count {
-	color: #FFF !important;
+     color: #FFF !important;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {
     color: rgba(222, 222, 222, 0.59);
@@ -1236,20 +1242,20 @@ body {
     border-bottom: transparent;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations .integration-inner .guild-name {
-	color: #FFF !important;
+    color: #FFF !important;
 }
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations .btn-joined .btn {
-	background-color: #FFF !important;
+    background-color: #FFF !important;
 }
 .tab-bar.SIDE {
     margin-right: -17px;
     background-color: #0b0404;
 }
 .tab-bar.SIDE .tab-bar-item:before {
-	border-left: 4px solid #935959 !important;
+    border-left: 4px solid #935959 !important;
 }
 .tab-bar.SIDE .tab-bar-item:selected {
-	border-left: 4px solid #935959 !important;
+    border-left: 4px solid #935959 !important;
 }
 .user-settings-modal-games {
     background: transparent;
@@ -1269,10 +1275,11 @@ body {
     border-bottom: 1px solid #935959;
 }
 .now-playing {
-	background: #4a1a1a !important;
+    background: #4a1a1a !important;
+    animation: none;
 }
 .now-playing.no-detection {
-	background: #4a1a1a !important;
+    background: #4a1a1a !important;
     border: 1px solid #935959 !important;
 }
 .user-settings-modal .settings-wrapper .now-playing-add .link {
@@ -1555,8 +1562,8 @@ div.control-group .shortcut-recorder input[type=text] {
     border-color: #FFFFFF;
 }
 .checkbox .checkbox-inner.alt input[type=checkbox]+span {
-    background: #000;
-    border-color: #cdcdcd;
+    background: #341212;
+    border-color: #FFF;
 }
 
 /*Streamer Mode*/
