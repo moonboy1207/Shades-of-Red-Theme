@@ -1551,6 +1551,9 @@ div.control-group .shortcut-recorder input[type=text] {
 .spinner-wandering-cubes .spinner-item {
     background-color: #935959;
 }
+.checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after {
+    border-color: #FFFFFF;
+}
 
 /*Streamer Mode*/
 .notice.notice-streamer-mode {
