@@ -584,8 +584,8 @@ body {
 .theme-dark .channel-members {
     background-color: transparent;
     padding: 1px;
-    max-width: 270px;
-    min-width: 270px;
+    max-width: 280px;
+    min-width: 280px;
 }
 .channel-members .invite-btn {
     background-color: #714949;
