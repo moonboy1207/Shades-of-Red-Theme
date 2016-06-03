@@ -1192,6 +1192,16 @@ body {
 }
 
 /*Settings and Options*/
+@-webkit-keyframes now-playing-pulse {
+    0% {box-shadow: 0 0 0 0 #9f0000;}
+    70% {box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0);}
+    to {box-shadow: 0 0 0 0 rgba(241, 71, 71, 0);}
+}
+@keyframes now-playing-pulse {
+    0% {box-shadow: 0 0 0 0 #9f0000;}
+    70% {box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0);}
+    to {box-shadow: 0 0 0 0 rgba(241, 71, 71, 0);}
+}
 .change-log .changelog-added, .change-log .changelog-added-secondary {
     background-color: #AB1717;
 }
@@ -1276,7 +1286,6 @@ body {
 }
 .now-playing {
     background: #4a1a1a !important;
-    animation: none;
 }
 .now-playing.no-detection {
     background: #4a1a1a !important;
@@ -1402,6 +1411,11 @@ body {
 .btn-confirm .btn:first-of-type:hover {
     color: #fff;
     background-color: transparent;
+}
+.progress .progress-bar {
+    background-color: #5c3030;
+    -webkit-transition: width .2s ease-in;
+    transition: width .2s ease-in;
 }
 
 /*Settings for Roles*/
