@@ -1579,6 +1579,9 @@ div.control-group .shortcut-recorder input[type=text] {
     background: #341212;
     border-color: #FFF;
 }
+.alert.form .form-inner .btn {
+    border: 1px solid #FF0026;
+}
 
 /*Streamer Mode*/
 .notice.notice-streamer-mode {
