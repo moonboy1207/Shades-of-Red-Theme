@@ -1190,6 +1190,9 @@ body {
 .form .btn.red:hover {
     background-color: #4e1c1c;
 }
+.form .btn:disabled {
+    background-color: #EC7676;
+}
 
 /*Settings and Options*/
 @-webkit-keyframes now-playing-pulse {
