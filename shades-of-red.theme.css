@@ -1923,3 +1923,9 @@ div.control-group .shortcut-recorder input[type=text] {
 .upload-modal .inner .file .icon.image {
     border: 2px solid #FF0000;
 }
+.upload-drop-modal .bgScale {
+    background: #5D0404;
+}
+.upload-area {
+    background: #5S0404;
+}
