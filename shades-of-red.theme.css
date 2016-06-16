@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.00"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.12"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -1876,4 +1876,50 @@ div.control-group .shortcut-recorder input[type=text] {
 #clockPluginClock {
     color: #FFF;
     background: none;
+}
+
+/* Upload Images */
+.upload-modal {
+    background-color: #3C0505;
+}
+.upload-modal .footer {
+    background-color: #270000;
+}
+.upload-modal .inner {
+    border: 2px dashed #FF0B0B;
+}
+.upload-modal .inner {
+    border: 2px dashed #FF0B0B;
+}
+.upload-modal .footer .button {
+    background-color: #DA2323;
+    color: #FFFFFF;
+}
+.upload-modal .footer .button-primary {
+    background-color: #EA5F5F;
+    color: #FFFFFF;
+}
+.channel-textarea-autocomplete-inner header {
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #560505;
+    color: #FEFEFF;
+}
+.channel-textarea-autocomplete-inner {
+    border: 2px solid #FFFFFF;
+}
+.channel-textarea-autocomplete-inner ul {
+    padding: 6px 0;
+    background-color: #690303;
+    color: #fff;
+}
+.channel-textarea-autocomplete-inner ul li.active {
+    background: #800B0B;
+    padding-left: 12px;
+    color: #fff;
+}
+.channel-textarea-autocomplete-inner ul li {
+    color: #fff;
+}
+.upload-modal .inner .file .icon.image {
+    border: 2px solid #FF0000;
 }
