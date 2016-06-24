@@ -1426,6 +1426,12 @@ body {
     -webkit-transition: width .2s ease-in;
     transition: width .2s ease-in;
 }
+.user-settings-modal .link-button {
+    color: #BB6767;
+}
+.user-settings-modal .link-button:hover {
+    color: #824444;
+}
 
 /*Settings for Roles*/
 #settings-roles .roles, .selected-role .selected-role-inner {
