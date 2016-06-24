@@ -559,6 +559,32 @@ img.image {
     background-color: #301313;
     
 }
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: #440D0D;
+    color: #B3B3B3;
+}
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: #380909;
+    color: #B3B3B3;
+}
+.channel-textarea-guard button:hover {
+    background-color: #563838;
+}
+.channel-textarea-guard button {
+    background-color: #714949;
+}
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: hsla(0,0%,100%,.04);
+        /* background-color: #4E1B1B; */
+}
+.theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    border-color: #774545;
+    background: #4E1B1B;
+}
+.theme-dark .messages-wrapper .messages .message-group-blocked {
+    background: #34373c;
+    border-color: #774545;
+}
 
 /*Titles and Headers*/
 body {
