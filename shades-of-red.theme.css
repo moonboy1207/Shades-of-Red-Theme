@@ -1,9 +1,9 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.30"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.50"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
     background: #160808;
-    border-top: 1px solid #935959;
+    border-top:	 1px solid #935959;
 }
 .bda-dark #pubs-footer {
     background: #160808;
@@ -1974,33 +1974,50 @@ div.control-group .shortcut-recorder input[type=text] {
     background: #5S0404;
 }
 
-/*Pins*/
-.theme-dark .channel-pins-wrap .header {
-    background-color: #7B1515;
+/*Recent Mentions*/
+.theme-dark .messages-popout-wrap .header {
+    background-color: rgb(31, 2, 2);
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
 }
-.theme-dark .channel-pins-wrap {
-    background-color: #650C0C;
-    border: 1px solid rgba(28,36,43,.6);
-    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+.messages-popout {
+    background-color: #0A0101;
 }
-.theme-dark .channel-pins-wrap .channel-pins .message-group {
-    border-color: rgba(28,36,43,.6);
-    background-color: #3A0D0D;
+.theme-dark .messages-popout-wrap {
+    background-color: #987777;
 }
-.theme-dark .channel-pins-wrap .channel-pins .message-group:hover .action-buttons {
-    box-shadow: 0 0 6px 4px #882E2E;
-    background-color: #882E2E;
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background-color: #5F1515;
+    box-shadow: 0 0 6px 4px #5F1515;
 }
-.theme-dark .channel-pins-wrap .footer {
+.theme-dark .messages-popout-wrap .footer {
     background-color: rgba(49, 25, 25, 0.6);
 }
-.theme-dark .channel-pins-wrap .channel-pins .message-group .action-buttons .jump-button {
-    background-color: rgba(195, 112, 112, 0.43);
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
+    border-color: rgba(255, 255, 255, 0);
+    background-color: #080404;
 }
-.theme-dark .channel-pins-wrap .channel-pins .message-group .action-buttons .jump-button:hover {
-    background-color: rgba(195, 112, 112, 0.43);
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
+    border-color: rgba(255, 169, 169, 0.8);
 }
-.theme-dark .channel-pins-wrap .channel-pins .empty-placeholder .image {
-    background-image: url("https://i.imgur.com/voO7pv7.png");
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
+    border-color: rgba(191, 115, 115, 0.59);
+    background-color: #170707;
+}
+.theme-dark .messages-popout-wrap .messages-popout .empty-placeholder .body {
+    color: hsla(0, 100%, 34%, 0.28);
+    font-size: 16px;
+    line-height: 19px;
+}
+.messages-popout .empty-placeholder.bottom .image {
+    display: none;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+    background-color: rgba(132, 44, 44, 0.84);
+}
+.theme-dark .messages-popout-wrap .has-more button {
+    background: #220B0B;
+    border: 1px solid #935959;
+}
+.messages-popout-wrap .has-more button {
+    color: #644646;
 }
