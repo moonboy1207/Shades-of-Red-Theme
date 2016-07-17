@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.55"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.68"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -1465,6 +1465,45 @@ body {
 }
 .user-settings-modal .link-button:hover {
     color: #824444;
+}
+.settings-connections-wrapper .authed-app {
+    background: #300;
+    border: 1px solid #C35858;
+}
+.settings-connections-wrapper .authed-app .details .permission-checkmark {
+    background: url("https://i.imgur.com/tJTuEKg.png") no-repeat;
+}
+.settings-connections-wrapper .authed-app .header .app-name {
+    color: #FF0000;
+}
+.settings-connections-wrapper .authed-app .details .body {
+    color: #C77979;
+}
+.settings-connections-wrapper .authed-app .details .body li {
+    padding-bottom: 6px;
+    color: #EA5C5C;
+}
+.user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {
+    background-color: #421717 !important;
+    border: transparent;
+}
+.user-settings-modal-connections .user-settings-modal-connections-list {
+    box-shadow: 0 -1px #935959;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations .integration .btn.btn-joined {
+    background-color: #750000;
+    color: #43b581;
+    cursor: default;
+    border-top: 1px solid #935959;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations .integration {
+    border: 1px solid #935959;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {
+    border: none;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations .integration .integration-inner a {
+    color: #E29E9E;
 }
 
 /*Settings for Roles*/
