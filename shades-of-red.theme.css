@@ -1165,6 +1165,12 @@ body {
 .form .btn-primary:hover {
     background-color: #4e1c1c;
 }
+.alert.form .form-inner .cancel {
+    border-radius: 3px;
+    border-color: #99aab5;
+    background-color: #714949;
+    color: #fff;
+}
 .form header {
 	color: #a68d8d !important;
 }
@@ -1505,6 +1511,7 @@ body {
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations .integration .integration-inner a {
     color: #E29E9E;
 }
+
 
 /*Settings for Roles*/
 #settings-roles .roles, .selected-role .selected-role-inner {
