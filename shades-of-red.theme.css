@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.50"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.55"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -614,9 +614,11 @@ body {
 .markdown-modal .markdown-modal-footer {
     border-top: 1px solid #924444;
     color: #99aab5;
-    /* background-color: #f9f9f9; */
+    background-color: #3A1818;
 }
-
+.change-log .changelog-in-progress {
+    background-color: #FF3F3F;
+}
 
 /*Channels, Members, and Account at Bottom*/
 .theme-dark .channel-members {
