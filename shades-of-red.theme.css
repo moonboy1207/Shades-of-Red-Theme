@@ -2097,3 +2097,34 @@ div.control-group .shortcut-recorder input[type=text] {
     background-image: url(/assets/fa4d05fd4a7ce8459a7cf997a60338e8.png);
     box-shadow: inset 0 -4px 10px 0 rgba(0,0,0,.2);
 }
+
+/* Group DMs */
+.private-channel-recipients-invite .footer button {
+    background-color: #8c0202;
+}
+.private-channel-recipients-invite .footer button:disabled:hover {
+    background-color: #480202;
+}
+.private-channel-recipients-invite .footer button:hover {
+    background-color: #480202;
+}
+.theme-dark .themed-popout .footer {
+    background-color: rgba(43, 1, 1, 0.6);
+}
+.theme-dark .checkbox .checkbox-inner span {
+    border-color: hsla(0, 100%, 50%, 0.2);
+}
+.search-bar-tag {
+    background: #9a0707;
+}
+.search-bar .search-bar-inner {
+    background: rgba(90, 0, 0, 0.58);
+    border: 1px solid rgba(0,0,0,.1);
+}
+.theme-dark .private-channel-recipients-invite .friend {
+    color: #fff;
+    background: #130000;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+    background: -webkit-linear-gradient(left,#4A0001 85%,#000000);
+}
