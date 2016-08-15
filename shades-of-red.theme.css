@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.75"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.80"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -1962,6 +1962,18 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 .mfa-modal .mfa-step {
     border-bottom: 1px solid #935959;
+}
+.guild-mfa-warning {
+    text-align: center;
+    padding: 73px 20px 20px;
+    background: #400000 url(https://i.imgur.com/Tmo6V02.png) no-repeat center 20px;
+    box-shadow: inset 0 -1px 3px rgba(0,0,0,.1);
+}
+.app a, .connecting a {
+    color: #f40000;
+    -webkit-transition: .05s;
+    transition: .05s;
+    text-decoration: none;
 }
 
 /*Plugins*/
