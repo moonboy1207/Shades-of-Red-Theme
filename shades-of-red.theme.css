@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.80"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.90"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -246,8 +246,8 @@
 .sub-header, #user-profile-modal .tab-bar {
     background-color: #110606 !important;
     border-bottom: 0px !important;
-    border-left: 1px solid #935959;
-    border-right: 1px solid #935959;
+    border-left: nome;
+    border-right: none;
 }
 #user-profile-modal .empty {
     background: #160808;
@@ -1397,6 +1397,12 @@ body {
 .user-settings-modal-connections .user-settings-modal-connections-header label a {
     color: #000;
 }
+#user-profile-modal .tab-bar-container {
+    background-color: #110606;
+    border-bottom: none;
+    border-left: 1px solid #935959;
+    border-right: 1px solid #935959;
+}
 #overlay-explanation {
     border: 1px solid #f04747;
     border-radius: 5px;
@@ -2139,4 +2145,23 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 .theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
     background: -webkit-linear-gradient(left,#4A0001 85%,#000000);
+}
+
+/* add friends */
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: #ad0000;
+    color: #fff;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background-color: #880000;
+}
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-add:hover {
+    background-color: #a04949!important;
+}
+.theme-dark #friends .friends-empty.section-add-friend-no-suggestion .empty-state-image {
+    background-image: url("https://i.imgur.com/eymKSV8.png");
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    background-color: #630000;
+    color: #ffffff;
 }
