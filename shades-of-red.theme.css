@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.90"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.95"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -615,9 +615,6 @@ body {
     border-top: 1px solid #924444;
     color: #99aab5;
     background-color: #3A1818;
-}
-.change-log .changelog-in-progress {
-    background-color: #FF3F3F;
 }
 
 /*Channels, Members, and Account at Bottom*/
@@ -1250,12 +1247,6 @@ body {
     0% {box-shadow: 0 0 0 0 #9f0000;}
     70% {box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0);}
     to {box-shadow: 0 0 0 0 rgba(241, 71, 71, 0);}
-}
-.change-log .changelog-added, .change-log .changelog-added-secondary {
-    background-color: #AB1717;
-}
-.change-log .changelog-fixed {
-    background-color: #480202;
 }
 .user-settings-security .btn-ghost {
     background: #380D0D;
@@ -2164,4 +2155,16 @@ div.control-group .shortcut-recorder input[type=text] {
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
     background-color: #630000;
     color: #ffffff;
+}
+
+/* Emote not available in chat */
+.theme-dark .message-group.is-local-bot-message {
+    /* background-image: -webkit-linear-gradient(0deg,rgba(46,49,54,.3) 80%,#36393e 100%); */
+    background-image: -moz-linear-gradient(0deg,rgba(46,49,54,.3) 80%,#36393e 100%);
+    background-image: -o-linear-gradient(0deg,rgba(46,49,54,.3) 80%,#36393e 100%);
+    background-image: -ms-linear-gradient(0deg,rgba(46,49,54,.3) 80%,#36393e 100%);
+    background-image: linear-gradient(90deg,rgba(72, 52, 52, 0.3) 80%,#480000 100%);
+    border-color: transparent;
+    /* -webkit-box-shadow: -20px 0 #33373b,20px 0 #36393e,-20px -1px 0 0 #3e4146,-20px 1px 0 #3e4146,20px 1px 0 #3e4146,20px -1px 0 #3e4146; */
+    box-shadow: -20px 0 #480000,20px 0 #480000,-20px -1px 0 0 #480000,-20px 1px 0 #480000,20px 1px 0 #480000,20px -1px 0 #480000;
 }
