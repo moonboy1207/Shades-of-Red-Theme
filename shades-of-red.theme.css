@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"2.95"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"3.05"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -10,26 +10,26 @@
     border-bottom: 1px solid #935959;
 }
 .bda-dark #pubs-header button {
-    background-color: #4A1313
+    background-color: #4A1313;
 }
 .server-description::-webkit-scrollbar-thumb {
-    background: #935959
+    background: #935959;
 }
 .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
-    border-coor: #935959!important;
+    border-color: #935959!important;
     background-color: #935959!important;
 }
 .bda-dark #pubs-container, .bda-dark .server-row:nth-child(odd) {
     background-color: #3E0000;
 }
 .bda-dark .server-row {
-    background-color: #4A000;
+    background-color: #4A0000;
 }
 .bda-dark #pubs-container {
     border-left: 1px solid #935959;
     border-right: 1px solid #935959;
 }
-.bda-dark .server-info button 
+.bda-dark .server-info button {
     background-color: #4e1c1c;
 }
 .server-pinned {
@@ -229,11 +229,31 @@
     border-left: 1px solid #935959;
     border-right: 1px solid #935959;
 }
+#user-profile-modal .header:after {
+    content: ' ';
+    background-color: transparent;
+    background-image: linear-gradient(-180deg,rgba(45, 0, 0, 0.65),#460000);
+}
+#user-profile-modal .avatar-wrapper {
+    background-color: hsla(0, 0%, 0%, 0);
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+    color: #fff;
+}
 #user-profile-modal footer {
     background: #110606;
     border-left: 1px solid #935959;
     border-right: 1px solid #935959;
     border-bottom: 1px solid #935959;
+}
+#user-profile-modal .guilds .section+.section {
+    border-top: 1px solid #935959;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border: 1px solid #935959;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+    color: #b1aeae;
 }
 #user-profile-modal .sub-header {
     background: #FFF;
